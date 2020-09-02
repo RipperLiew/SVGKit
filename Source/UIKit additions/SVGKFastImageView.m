@@ -165,7 +165,7 @@
 	{
 		/*SVGKitLogVerbose(@"transform changed. Setting layer scale: %2.2f --> %2.2f", self.layer.contentsScale, self.transform.a);
 		 self.layer.contentsScale = self.transform.a;*/
-		[self.image.CALayerTree removeFromSuperlayer]; // force apple to redraw?
+// 		[self.image.CALayerTree removeFromSuperlayer]; // force apple to redraw?
 #if SVGKIT_UIKIT
 		[self setNeedsDisplay];
 #else
